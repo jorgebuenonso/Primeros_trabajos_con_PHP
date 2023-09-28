@@ -1,0 +1,24 @@
+Título del Juego: "Atraviesa el Campo de Minas"
+
+Objetivo del Juego:
+El objetivo del juego es llegar desde la esquina superior izquierda de un campo de juego hasta la esquina inferior derecha sin chocar con ninguna mina.
+
+Cómo Jugar:
+
+    Al iniciar el juego, verás un tablero cuadriculado en tu pantalla. Este tablero representa el campo de juego.
+
+    Tu posición inicial está en la esquina superior izquierda del tablero, marcada con la letra "P", que representa al jugador.
+
+    Debes mover al jugador a través del campo utilizando las teclas "w", "a", "s" y "d" en tu teclado:
+        "w": Mover hacia arriba.
+        "a": Mover hacia la izquierda.
+        "s": Mover hacia abajo.
+        "d": Mover hacia la derecha.
+
+    Cada vez que muevas al jugador, verás cómo cambia su posición en el tablero.
+
+    Ten cuidado con las minas que están ocultas en el campo. Están representadas por la letra "X" en el tablero.
+
+    Si el jugador se mueve a una celda con una mina, perderás el juego. El juego te mostrará un mensaje que dice "Has perdido".
+
+    El juego continúa hasta que logres llegar a la esquina inferior derecha del campo sin chocar con una mina. Cuando lo hagas, ganarás el juego y verás un mensaje que dice "Has ganado".

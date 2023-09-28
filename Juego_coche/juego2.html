@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Juego con Animación</title>
+  <style>
+    /* Estilos para centrar el contenido en la pantalla */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* 100% de la altura de la ventana */
+    }
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      border: 1px solid #ccc;
+      font-size: 24px; /* Tamaño del texto */
+      font-weight: bold; /* Texto en negrita */
+    }
+
+    .instructions {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .arrow-icon {
+      font-size: 24px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Juego con Animación</h1>
+  <table id="game-board"></table>
+  <div class="instructions">
+    <div class="arrow-icon">↑</div>
+    <div class="arrow-icon">←</div>
+    <div class="arrow-icon">↓</div>
+    <div class="arrow-icon">→</div>
+    <span>Mover con las flechas</span>
+  </div>
+  <script src="juego.js"></script>
+  </body>
+</html>
+
+
+
