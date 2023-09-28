@@ -1,0 +1,423 @@
+/*  inicio estilos generales */
+* {
+    box-sizing: border-box;
+    }
+    
+    *:focus {
+        outline: none;
+    }
+    body {
+        font-family: Arial;
+        background-color: #1B4250;
+        padding: 50px;
+    }
+    /* fin estilos generales */
+
+    /* inicio estilos formularios y tablas */
+    .consulta {
+        margin: 15px auto;
+        width: 100%;
+        height: 100%;
+    }
+    .consulta-screen {
+        background-color: #9FB6BA;
+        padding: 5px;
+        border-radius: 5px
+    }
+    
+    .app-title {
+        text-align: center;
+        color: #777;
+    }
+    
+    .consulta-form {
+        text-align: center;
+        height: 90px;
+        padding-right: 400px;
+    }
+    .control-group {
+        margin-bottom: 10px;
+    }
+
+    .control-group input, select{
+        width: 20%;
+    }
+    .control-group select{
+        width: 20%;
+    }
+   
+    input, select {
+        text-align: center;
+        background-color: #ECF0F1;
+        border: 2px solid transparent;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: 20px;
+        padding: 10px 0;
+        margin-bottom: 5px;
+        width: 200px;
+        height: 40px;
+        transition: border .5s;
+    }
+    
+    input:focus ,section:focus {
+        border: 2px solid #3498DB;
+        box-shadow: none;
+    }
+
+    
+    .modificar-div{ 
+        width: 100%;
+    }
+
+    .modificar-form{
+        width: 91%;
+       
+      
+    }
+   
+
+    .input-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .input-row:first-child{
+        margin-top: 20px !important;
+    }
+    
+    .input-row label {
+        margin-right: 20px; /* Espacio entre label e input */
+        width: 150px; /* Ancho fijo para label */
+        text-align: right; /* Alinea el texto del label a la derecha */
+    }
+    
+    .input-row input {
+        width: 20%;
+        text-align: center;
+    }
+    .select-modificar{
+        
+        width: 20%;
+        text-align: center;
+        position: relative;
+        left:   5.2%;
+    }
+    
+    .comprobar {
+      border: 2px solid transparent;
+      background: #5379fa;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 25px;
+      padding: 10px 0;
+      padding-bottom: 20px;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 200px;
+      height: 43px;
+      margin: 0 auto;
+      
+      
+    }
+    
+    .comprobar:hover {
+      background-color: #2980B9;
+    }
+
+    .comprobar-modificar{
+      border: 2px solid transparent;
+      background: #5379fa;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 25px;
+      padding: 10px 0;
+      padding-bottom: 20px;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 20%;
+      height: 43px;
+      margin: 0 auto;
+      margin-left: 45.1%;
+      margin-bottom: 20px;
+      
+    }
+
+    #titulo {
+        
+        text-align: center;
+        margin: 40px 0 40px;
+        font-size: 30px;
+        color: #ecf0f1; font-size: 30px;
+        color: #ecf0f1;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: 'Cherry Swash', cursive;
+    }
+
+    .titulo-consulta{
+        float: left;
+        padding-left: 350px;
+        padding-bottom: 50px;
+        color: #ecf0f1;  font-size: 30px;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: 'Cherry Swash', cursive;
+    }
+
+    .titulo-tabla{
+        float: right;
+       
+        padding-bottom: 50px;
+        color: #ecf0f1;  font-size: 30px;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: 'Cherry Swash', cursive;
+        
+    }
+
+    h2{
+        padding-top: 0px;
+        text-align: center;
+        clear: both;
+        color: #63778a;  font-size: 30px;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: 'Cherry Swash', cursive; 
+    }
+
+
+    table{
+        margin: 0 auto;
+        padding: 10px;  
+        background-color: #9ab9c9;
+        text-align: center;
+        border-collapse: separate;
+        border: black 5px solid;
+        width: 90%;
+        
+       
+    }
+    .table-fichero{
+        text-align: justify;
+        background-color: #2be6c6;
+        width: 55%;
+        padding: 10px;
+    }
+    .table-fichero p{
+        padding: 5px;
+    }
+    table tr:nth-child(odd) {background-color: grey;}
+
+    td a{
+        text-decoration: none !important ;
+        margin: 5px;
+        color: #193caf;;
+    }
+
+        
+    .modificar-link:hover {
+        color: green; 
+        
+    }
+
+   
+    .borrar-link:hover {
+        color: red; 
+        
+    }
+
+    .boton-enlace {
+        clear: both;
+        padding: 5px 5px;
+        margin-left: 100px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        width: 100%;
+      }
+      
+      .boton-enlace:hover {
+        background-color: #2980b9;
+      }
+      
+
+    
+    .h2consulta{
+        text-align: center;
+        color: #6d8fa1;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-size: 28px;
+        padding: auto;
+    }
+
+    .titulo {
+        text-align: center;
+        margin: 40px 0 40px;
+        text-align: center;
+        font-size: 30px;
+        color: #ecf0f1;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: 'Cherry Swash', cursive;
+    }
+ 
+    /* fin estilos tablas y formularios */
+
+   /* Inicio menu */
+
+nav {
+	margin: 20px auto 0;
+	position: relative;
+	width: 400px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 100px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 100px;
+}
+a:nth-child(5) {
+	width: 100px;
+}
+a:nth-child(6) {
+	width: 100px;
+}
+
+/* navegador presidente */
+
+.nav-presidente  a:nth-child(1):hover~.animation {
+	width: 95px;
+	left: 0;
+	background-color: #1abc9c;
+}
+.nav-presidente a:nth-child(2):hover~.animation {
+	width: 95px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+.nav-presidente a:nth-child(3):hover~.animation {
+	width: 95px;
+	left: 200px;
+	background-color: #3498db;
+}
+.nav-presidente  a:nth-child(4):hover~.animation {
+	width: 90px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+
+/* navegador manager */
+
+.nav-manager  a:nth-child(1):hover~.animation {
+    width: 110px;
+	left: 0;
+	background-color: #1abc9c;
+}
+
+.nav-manager a:nth-child(2):hover~.animation{
+    width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+
+.nav_manager a:nth-child(3):hover~.animation{
+    width: 110px;
+	left: 202px;
+	background-color: #3498db;
+}
+
+/* navegador otros */
+
+.nav-otros a:nth-child(1):hover~.animation {
+    width: 115px;
+	left: 0;
+	background-color: #1abc9c;
+}
+
+.nav-otros  a:nth-child(2):hover~.animation{
+    width: 110px;
+	left: 110px;
+	background-color: #e74c3c;
+}
+
+
+/* Fin menu */
+
+/* paguinacion
+
+/* Estilos para la paginación */
+.paginacion {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+}
+
+.pagina {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    border-radius: 3px;
+    
+}
+
+.pagina.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.pagina:hover {
+    background-color: #809bf3;
+    color: #333;
+}
+
+.pagina:focus{
+    border: 2px solid #020f35;
+    box-shadow: none;
+}
+
+   

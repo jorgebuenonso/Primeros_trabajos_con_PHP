@@ -1,0 +1,374 @@
+/* Inicio Página inicial */
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+    
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(https://img.freepik.com/fotos-premium/servidores-oscuros-sala-central-computadoras-sistemas-almacenamiento_117023-894.jpg?w=1380);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); 
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+	
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+    
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+	width: 251px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=submit]:focus{
+	outline: none;
+}
+
+ /* Aplicar la animación al elemento */
+ .login, .name_login {
+	animation-duration: 2s;
+	animation-name: mover;
+  }
+
+/* Definir una animación llamada "mover" */
+@keyframes mover {
+	0% { opacity: 0; }
+    50% { opacity: 0.5; }
+   100% { opacity: 1; }
+}
+  
+ 
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+h1{
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+/* Fin Página inicial */
+/* Inicio menu */
+
+nav {
+	margin: 25px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+
+.informe{
+	background-color: #1abc9c;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 100px;
+}
+
+a:nth-child(6) {
+	width: 100px;
+}
+nav > a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav > a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav > a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav >a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav > a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+
+ nav.informe > a:hover {
+	width: 120px;
+	left: 470px;
+	background-color: #964179;
+}
+
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #1B4250;
+}
+
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+
+span {
+    color: #2BD6B4;
+	
+}
+.imagen{
+	text-align: center;
+	padding-top: 80px;
+}
+
+
+/* Fin menu */
+
+.bodyConsulta {
+	font-family: Arial;
+	background-color: #3498DB;
+	padding: 50px;
+	}
+
+* {
+	box-sizing: border-box;
+	}
+	
+	*:focus {
+		outline: none;
+	}
+	
+	.consulta {
+	margin: 20px auto;
+	width: 300px;
+	}
+	.consulta-screen {
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 5px
+	}
+	
+	.app-title {
+	text-align: center;
+	color: #777;
+	}
+	
+	.consulta-form {
+	text-align: center;
+	}
+	.control-group {
+	margin-bottom: 10px;
+	}
+	
+	input {
+	text-align: center;
+	background-color: #ECF0F1;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 10px 0;
+	width: 250px;
+	transition: border .5s;
+	}
+	
+	input:focus {
+	border: 2px solid #3498DB;
+	box-shadow: none;
+	}
+	
+	.btn {
+	  border: 2px solid transparent;
+	  background: #3498DB;
+	  color: #ffffff;
+	  font-size: 16px;
+	  line-height: 25px;
+	  padding: 10px 0;
+	  text-decoration: none;
+	  text-shadow: none;
+	  border-radius: 3px;
+	  box-shadow: none;
+	  transition: 0.25s;
+	  display: block;
+	  width: 250px;
+	  margin: 0 auto;
+	}
+	
+	.btn:hover {
+	  background-color: #2980B9;
+	}
+	
+	.consulta-link {
+	  font-size: 12px;
+	  color: #444;
+	  display: block;
+		margin-top: 12px;
+	}
+
+
+
+
+
+
+	
