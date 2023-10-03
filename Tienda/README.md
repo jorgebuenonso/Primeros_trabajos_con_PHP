@@ -1,7 +1,22 @@
 Proyecto de Tienda Web Simple
 
-Este proyecto es una aplicación web de tienda en línea que permite a los usuarios registrarse, iniciar sesión, explorar productos, agregarlos al carrito de compras y realizar compras. También incluye funcionalidades para crear, modificar y eliminar productos en la base de datos. La aplicación está diseñada como una práctica para aprender sobre conceptos clave como autenticación, gestión de sesiones, cookies y servicios web (SOAP y REST).
-Características Principales
+Este proyecto es una aplicación web de tienda en línea que sigue el patrón de diseño Modelo-Vista-Controlador (MVC). La aplicación permite a los usuarios registrarse, iniciar sesión, explorar productos, agregarlos al carrito de compras y realizar compras. También incluye funcionalidades para crear, modificar y eliminar productos en la base de datos. La aplicación está diseñada como una práctica para aprender sobre conceptos clave como autenticación, gestión de sesiones, cookies y servicios web (SOAP y REST), todo implementado siguiendo el patrón de diseño MVC.
+
+implementado siguiendo el patrón de diseño MVC:
+
+Modelo
+
+    Gestión de Usuarios y Productos: La lógica para manejar usuarios y productos se encuentra en el modelo. Esto incluye operaciones como verificar credenciales, validar contraseñas y manipular información de productos.
+
+Vista
+
+    Interfaz de Usuario Amigable: La interfaz de usuario permite a los usuarios interactuar con la aplicación de manera fácil e intuitiva. Utiliza HTML y CSS.
+
+Controlador
+
+    Gestión de Solicitudes y Respuestas: Los controladores manejan las solicitudes del usuario y coordinan las acciones adecuadas. Se encargan de procesar los datos del modelo y enviar las respuestas adecuadas a la vista.
+
+Características Principales:    
 
     Inicio de Sesión y Registro de Usuarios
         Los usuarios pueden iniciar sesión con su correo electrónico y contraseña.
