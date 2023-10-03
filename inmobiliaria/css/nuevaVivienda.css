@@ -1,0 +1,88 @@
+
+
+body{
+      background-image: url("http://www.construmod.es/mediapool/123/1236683/resources/big_25931866_0_750-464.jpg");
+    }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a.volver {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+form {
+  width: 30%;
+  margin-left: 650px;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+select, input[type="text"], textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.input[type="date"]{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.extras-box, .foto-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pCheck {
+  margin-left: 10px;
+}
+
+.botonNewVivienda {
+  width: 90%;
+  background-color: #A55017;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+ 
+}
+.botonNewVivienda:hover{
+background-color: orange;
+}
+
+.volver {
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+.volver:hover{
+  background-color: #A55017;
+}
+h3{
+  margin-right: 15px;
+}
