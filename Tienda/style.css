@@ -1,0 +1,284 @@
+/* Inicio animaciones */
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes formOpacity {
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+        
+    }
+}
+
+/* fin animaciones */
+
+/* inicio estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #84b4cc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    
+}
+
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 1em;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* fin estilos generales */
+
+/* inicio paguina ingreso */
+
+.container-ingreso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura como desees */
+    background-color: rgb(129, 238, 238);
+    width: 100%;
+}
+
+.form-ingreso{
+    height: 90vh;
+}
+
+.form-ingreso input{
+ width: 100%;
+ height: 30px;
+}
+/* fin paguina ingreso */
+
+/* inicio paguina login */
+
+.title-login{
+    margin-top: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura como desees */
+    background-color: rgb(87, 134, 134);
+   
+}
+
+.form-login{
+    width: 95%;
+    height: 500px;
+    animation: formOpacity 3s forwards;
+    
+}
+.form-login input{
+    width: 100%;
+    height: 30px;
+}
+
+.form-login input[type='checkbox']{
+    width: 2%;
+    height: 20px;
+}
+
+/* fin paguina login */
+
+/* inicio paguina producto (CARRITO) */
+
+.container-new-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura como desees */
+  background-color: antiquewhite;  
+}
+
+.form-new-producto{
+    height: 90vh;
+}
+
+.form-new-producto input{
+ width: 100%;
+ height: 35px;
+}
+
+.container-editar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;  
+}
+
+.form-editar{
+    height: 30vh;
+    margin-top: 50px;
+}
+
+.form-editar input{
+ width: 100%;
+ height: 30px;
+}
+
+.title-editar{
+    margin-right: 50px;
+}
+
+.newP{
+    margin-top: 50px;
+    text-align: center !important;
+}
+
+/* fin paguina producto (CARRITO) */
+
+/* inicio paguinacion */
+
+.pagination {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.pagination li {
+    display: inline;
+    margin-right: 0.5em;
+   
+}
+
+.pagination li a {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.pagination li.active a {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* fin paguinacion */
+
+/* inicio nuevo usuario */
+
+
+.navNewUsuario {
+    background-color: #f2f2f2;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.navNewUsuario h2 {
+    margin-top: 0;
+}
+
+.navNewUsuario table {
+    margin-bottom: 0;
+}
+
+.navNewUsuario td, .navNewUsuario th {
+    padding: 0.25em 0.5em;
+    text-align: center;
+}
+
+.navNewUsuario th {
+    font-weight: bold;
+}
+
+.navNewUsuario a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 0.5em;
+}
+
+.navNewUsuario a:hover {
+    background-color: #444;
+}
+/* fin nuevo usuario */
+
+button[type='submit']{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(178, 241, 220);
+}
+
+.row,.option{
+    padding-left: 5%;
+    padding-top: 10px;
+}
+.volver{
+    padding-left: 5%;
+    margin-top: 20px;
+}
